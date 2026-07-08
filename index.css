@@ -1,6 +1,9 @@
-.img1{
+.navbar-logo {
     height: 50px;
-    width: 50px;
+    width: auto;       /* Maintains aspect ratio dynamically */
+    max-width: 50px;   /* Prevents arbitrary layout blowouts */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .icon1{
